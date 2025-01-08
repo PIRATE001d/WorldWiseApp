@@ -1,0 +1,75 @@
+/* Container for the countries list */
+.container {
+  padding: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Title of the page */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0077cc;
+  text-align: center;
+}
+
+/* Country list and grid layout */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+/* Individual country items */
+.countriesItem {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for the countries item */
+.countriesItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* City info in the list */
+.cityInfo {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 5px 0;
+}
+
+/* Emoji styling next to country name */
+.emoji {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Styling for no cities message */
+.noCities {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Loading and error messages */
+.loading, .error {
+  font-size: 1rem;
+  color: #d9534f;
+  text-align: center;
+}
+
+/* General paragraph styling */
+p {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 5px 0;
+}

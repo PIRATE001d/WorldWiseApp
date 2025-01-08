@@ -1,0 +1,77 @@
+/* Container for the city details */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+  
+/* Title with city name and emoji */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+
+
+  
+/* Paragraph with the country information */
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+  
+/* Styling for the "Learn More About" Wikipedia link */
+.WikiLink {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.WikiLink:hover {
+    text-decoration: underline;
+    color: #005fa3;
+}
+  
+/* Styling for the note section */
+strong {
+    color: #333;
+    font-weight: bold;
+}
+  
+/* Spacing adjustments for elements */
+p strong {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+  
+/* Styling for the 'Your Note' section */
+p strong + span {
+    font-style: italic;
+    color: #777;
+}
+  
+/* Responsiveness for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+  
+    h2 {
+        font-size: 1.8rem;
+    }
+  
+    p {
+        font-size: 1rem;
+    }
+  
+    span {
+        font-size: 2rem;
+    }
+}
