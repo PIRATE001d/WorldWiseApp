@@ -1,0 +1,47 @@
+{
+  "name": "worldwide",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "json-server --watch src/data/cities.json --port 8230"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@material-tailwind/html": "^2.3.2",
+    "@mui/material": "^6.3.0",
+    "@nextui-org/react": "^2.6.10",
+    "@reach/router": "^1.3.4",
+    "flowbite": "^2.5.2",
+    "framer-motion": "^11.15.0",
+    "leaflet": "^1.9.4",
+    "moment": "^2.30.1",
+    "react": "^18.3.1",
+    "react-datepicker": "^7.5.0",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.0.0",
+    "react-router-dom": "^6.28.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.22",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.13.0",
+    "json-server": "^1.0.0-beta.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.3"
+  }
+}
