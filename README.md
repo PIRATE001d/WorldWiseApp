@@ -21,3 +21,5 @@ WorldWiseApp is a travel tracker built with **Vite**, **React**, and **JavaScrip
 1. Clone the repository:
    ```bash
    git clone https://github.com/PIRATE001d/WorldWiseApp.git
+   cd to the  diractory of the folder
+   yarn or npm install
